@@ -4,7 +4,8 @@
 }
 
 main{
-    margin-left:5px
+    margin-left:5px;
+    width: 1050px;
 }
 
 #logo {
@@ -50,7 +51,7 @@ margin-left:0px;
     background-color: yellow;
 }
 
-.primo{
+.primo, .secondo{
     margin-top: 20px;
     margin-bottom:20px;
 }
@@ -61,6 +62,7 @@ ul{
 
 table{
     border-spacing: 0;
+    font-weight: bold;
 }
 
 .table{
@@ -74,7 +76,7 @@ thead{
 }
 
 .riga0 {
-    
+    color: white;
 }
 
 .riga1, .riga3{
@@ -89,4 +91,43 @@ thead{
 
 .colonna3{
     width: 600px;
+}
+
+.interessi{
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.img1{
+    width: 270px;
+    height: 208px;
+    background-image: url(./img/monitor.jpg);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 5px;   
+}
+
+.lorem1{
+    position: absolute;
+    top:10px;
+    left:30px;
+}
+
+.img2{
+    width: 270px;
+    height: 208px;
+    background-image: url(./img/graph.jpg);
+    color: white;
+    font-weight: bold;
+    position: relative;
+   
+}
+
+.lorem2{
+    position: absolute;
+    top:10px;
+    left:30px;
 }
